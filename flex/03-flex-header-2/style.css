@@ -46,3 +46,11 @@ a {
 ul {
   list-style-type: none;
 }
+
+.left-links{
+  font-size: 50px;
+}
+
+.right-links{
+  font-size: 1000px;
+}
