@@ -38,8 +38,14 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  /*line to change*/
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
 }
+
+
 
 a {
   /* this removes the line under our links */
@@ -50,20 +56,20 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  gap: 16px;
+  padding: 0px
 }
 
 .left-links{
   display: flex;
-  font-size: 35px;
   justify-content: center;
   gap: 16px;
-  align-self: center;
+  align-items: center;
 }
 
 .right-links{
   display: flex;
-  font-size: 10px;
   gap: 16px;
   justify-content: space-around;
-  align-self: center;
+  align-items: center;
 }
