@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  gap: 52px;
 }
 
 .title {
@@ -12,10 +13,13 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .images{
   display:flex;
+  align-items: center;
+  /* width: 200px; */
 }
 
 
