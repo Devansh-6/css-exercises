@@ -80,4 +80,5 @@ button.cancel {
 
 .container{
   color: lime;
+  display: flex;
 }
