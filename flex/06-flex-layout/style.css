@@ -37,8 +37,12 @@ ul {
 
 .footer{
   margin-top: auto;
+  padding: 10px;
+  background-color: #eeeeee;
 }
 
 .header{
   margin-bottom: auto;
+  padding: 10px;
 }
+
