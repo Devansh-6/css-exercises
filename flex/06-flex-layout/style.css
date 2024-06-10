@@ -19,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  font-weight: 500;
+  padding: 10px;
 }
 
 input {
@@ -26,6 +28,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 10px;
 }
 
 a {
@@ -47,14 +50,17 @@ ul {
   margin-bottom: auto;
   padding: 10px;
   display: flex;
+  align-items: space-between;
 }
 
 .content{
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-items: space-between;
 }
 
 .left-links, .right-links{
+  gap: 10px;
   display: flex;
 }
