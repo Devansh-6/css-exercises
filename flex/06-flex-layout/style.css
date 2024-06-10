@@ -45,14 +45,18 @@ ul {
   padding: 10px;
   background-color: #eeeeee;
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  width: 100%;
+  justify-content: space-between;
 }
 
 .header{
   margin-bottom: auto;
   padding: 10px;
   display: flex;
-  border: 2px solid green;
+  /* border: 2px solid green; */
+  justify-content: space-between;
+  width: 100%;
 }
 
 .content{
@@ -64,5 +68,6 @@ ul {
 .left-links, .right-links{
   gap: 20px;
   display: flex;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+  justify-content: space-evenly;
 }
