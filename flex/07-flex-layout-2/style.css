@@ -32,13 +32,15 @@ body {
   box-sizing: border-box;
   padding: 16px;
   display: flex;
-  flex: 1 0 300px;
+  flex: 0 0 300px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
 }
 
 a{
@@ -53,5 +55,9 @@ ul{
 
 .content{
   display: flex;
-  align-items: stretch;
+}
+
+.cards{
+  padding: 48px;
+  display: flex;
 }
